@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+header{
+    background-color: rgb(47, 47, 47);
+    position: relative;
+    height: 60px;
+
+}
+nav .nav{
+    width: 33%;
+}
+nav .nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    padding: 20px 10px;
+}
+.recherche{
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+nav .nav ul li :hover{
+    color: white;
+    background-color: black;
+    padding: 20px 15px;
+}
+input {
+   
+    color: rgb(47, 47, 47);
+    padding: 5px 5px;
+}
+.recherche button{
+    padding: 5px 5px;
+    background-color: rgb(48, 115, 173);
+    color: white;
+    width:100px;
+    border: none;
+    margin-left: 10px;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+h2{
+    margin-bottom: 30px;
+}
+.petitbloc{
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+.petitbloc article{
+    border: 1px solid rgba(47, 47, 47,0.5);
+    color: rgb(47, 47, 47);
+   padding: 10px;
+   
+}
+.petitbloc article h2{
+    padding: 0;
+    margin: 0;
+   
+}
+hr{
+    color: rgba(47, 47, 47,0.2);
+    margin: 30px 0;
+}
+.hr{
+    clear: both;
+  
+    margin: 100px 0;
+}
+.petitbloc div :hover,.petitbloc article h2:hover{
+    background-color:rgb(49, 118, 178) ;;
+    color: white;
+}
+.grandbloc article{
+    padding-bottom: 30px;
+}
+.grandbloc button{
+    background-color: rgb(74, 162, 74);
+    width: 120px;
+    color: white;
+    padding: auto;
+   
+}
+.image img{
+ margin-right:10px;
+}
+.second1{
+float: left;
+width: 35%;
+margin-right: 30px;
+border: 1px solid rgb(49, 118, 178);
+
+}
+.second1 h2{
+    background-color: rgb(49, 118, 178);
+}
+.petitarticle h2{
+ 
+    margin: 0;
+    padding: 0;
+}
+.multiarticle{
+    margin-left: 30px;
+    margin: 0;
+    padding: 0;
+    
+}
+.petitarticle{
+    border: 1px solid rgba(47, 47, 47,0.5);
+float:right;
+ width: 60%;
+    
+}
+hr{
+    clear: both;
+    margin: 50px 0;
+}
+table{
+    border-collapse: collapse;
+    height: 150px;
+    margin-bottom:20px ;
+    
+}
+td,th{
+    border: 1px solid rgba(128, 118, 118, 0.5);
+  text-align: left;
+    padding: 0 5px;
+}
+.ligne1,.ligne3,.ligne5{
+    background-color: rgb(249, 249, 249);
+    height: 45px;
+}
+
